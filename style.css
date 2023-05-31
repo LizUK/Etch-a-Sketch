@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 20px 0 0;
+}
+
+#wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#container {
+    padding-top: 109px;
+    width: 960px;
+    height: 562px;
+    margin: 0 auto;
+    background-image: url(images/background.png);
+    background-size: 100%;
+}
+
+#grid {
+    width: 900px;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.cell {
+    background-color: #d3d3d3;
+    border: 1px solid #999;
+}
+
+.etched {
+    background-color: #333;
+}
+
+#buttons {
+    height: 130px;
+    padding: 10px 20px 0;
+    display: flex;
+    text-align: center;
+}
+
+#buttons div {
+    flex: 1;
+    align-items: center;
+}
+
+#left-btns,
+#right-btns {
+    display: flex;
+    align-items: center;
+}
+
+#left-btns button,
+#right-btns button {
+    display: flex;
+    align-items: center;
+    background-image: url(images/btn.png);
+    height: 39px;
+    width: 120px;
+    background-size: 100%;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#cntr-btn button {
+    display: flex;
+    align-items: center;
+    background-image: url(images/clr-btn.png);
+    height: 39px;
+    width: 120px;
+    background-size: 100%;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#cntr-btn {
+    display: flex;
+    justify-content: center;
+}
+
+#left-btns img,
+#right-btns img,
+#cntr-btn img {
+    max-width: 120px;
+}
+
+#left-wheel img,
+#right-wheel img {
+    max-height: 140px;
+}
+

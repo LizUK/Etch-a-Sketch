@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a Sketch</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <section id="container">
+
+            <div id="grid">
+
+
+
+            </div>
+            
+            <div id="buttons">
+
+                <div id="left-wheel"><img src="images/white-whl.png"></div>
+
+                <div id="left-btns">
+                    
+                    <div class="one-btn"><button id="sml" class="sizeBtn pressed" onClick="changeSize(this)">Small</button></div>
+
+                    <div class="two-btns">
+                        <button id="mid" class="sizeBtn" onClick="changeSize(this)">Medium</button>
+                        <button id="big" class="sizeBtn" onClick="changeSize(this)">Big</button>
+                    </div>
+
+                </div>
+
+                <div id="cntr-btn"><button id="clrBtn" class="clr">Clear All</button></div>
+
+                <div id="right-btns">
+
+                    <div class="two-btns">
+                        <button id="fillBtn" class="grey">Grey</button>
+                        <button id="colrBtn" class="colr">Colourful</button>
+                    </div>
+
+                    <div class="one-btn"><button id="eraseBtn" class="erase">Erase</button></div>
+
+                </div>
+
+                <div id="right-wheel"><img src="images/white-whl.png"></div>
+
+            </div>
+
+        </section>
+
+    </div>
+</body>
+</html>
